@@ -268,10 +268,10 @@ namespace PortableCamera
 
             if (keyb_screenshot.GetKeybindDown())
             {
-                string time = DateTime.Now.ToShortTimeString();
-                string date = DateTime.Now.ToShortDateString();
                 Directory.CreateDirectory(screenshotFoldername);
-                Screenshot($"{screenshotFoldername}/{date}-{time}-{Environment.UserName}", cameraitemCam);
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
+                string path = Path.Combine(screenshotFoldername, $"photo_{timestamp}.png");
+                Screenshot(path, cameraitemCam);
             }
             
             cameraitemCam.fieldOfView = slider_camfov.GetValue();
@@ -336,3 +336,4 @@ namespace PortableCamera
         }
     }
 }
+
