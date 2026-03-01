@@ -1,5 +1,9 @@
 # Portable Camera
 
+## v 1.3.0
+- Fixed compatibility with [Kilju Crates mod](https://www.nexusmods.com/mysummercar/mods/2664) (Fixed by [Descrover](https://github.com/alibuyuktatli))
+- Fixed screenshot stuff
+
 ## v 1.2.0
 - Fixed graphics
 
