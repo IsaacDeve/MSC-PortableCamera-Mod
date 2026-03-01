@@ -11,7 +11,7 @@ namespace PortableCamera
         public override string ID => "PortableCamera"; // Your (unique) mod ID 
         public override string Name => "Portable Camera"; // Your mod name
         public override string Author => "Fartcollector1"; // Name of the Author (your name)
-        public override string Version => "1.0"; // Version
+        public override string Version => "1.3"; // Version
         public override string Description => "This mod allows you to grab a portable camera."; // Short description of your mod
 
         string screenshotFoldername = "camera_photos";
@@ -336,4 +336,5 @@ namespace PortableCamera
         }
     }
 }
+
 
